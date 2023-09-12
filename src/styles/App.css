@@ -9,12 +9,17 @@ h2{
     text-align: center;
 }
 
-ul{
+.todo-list{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    margin-left: 350px;
+    gap: 20px;
 }
-ul button{
-    margin-left: 150px;
+.todo-list ul{
+    float: left;
+}
+.todo-list button{
+    float: right;
 }

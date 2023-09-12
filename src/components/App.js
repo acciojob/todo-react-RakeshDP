@@ -32,7 +32,8 @@ const App = () => {
         />
         <button onClick={addTodo}>Add</button>
       </div>
-      <ul>
+
+      <ul className="todo-list">
         {todos.map((todo, index) => (
           <li key={index}>
             {todo}
@@ -40,6 +41,7 @@ const App = () => {
           </li>
         ))}
       </ul>
+      
     </div>
   );
 };
