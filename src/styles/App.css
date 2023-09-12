@@ -5,12 +5,10 @@
     align-items: center;
 }
 
-h1{
+h2{
     text-align: center;
 }
-.main button{
-   margin: 10px;
-}
+
 ul{
     display: flex;
     flex-direction: column;
