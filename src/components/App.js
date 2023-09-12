@@ -30,14 +30,14 @@ const App = () => {
           value={newTodo}
           onChange={(e) => setNewTodo(e.target.value)}
         />
-        <button onClick={addTodo}>Add</button>
+        <button onClick={addTodo}>Add Todo</button>
       </div>
 
       <ul className="todo-list">
         {todos.map((todo, index) => (
           <li key={index}>
             {todo}
-            <button onClick={() => removeTodo(index)}>Remove</button>
+            <button onClick={() => removeTodo(index)}>Delete</button>
           </li>
         ))}
       </ul>
