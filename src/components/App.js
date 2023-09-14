@@ -22,11 +22,10 @@ const App = () => {
 
   return (
     <div>
-      <h2>To-Do List</h2>
+      <h3>To-Do List</h3>
       <div className="main">
         <input
           type="text"
-          placeholder="Add a new task"
           value={newTodo}
           onChange={(e) => setNewTodo(e.target.value)}
         />
